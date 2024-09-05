@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -26,52 +27,54 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Home</a>
+              <Link to="/home">Home</Link>
             </li>
             <li>
-              <a>Shop</a>
+              <Link to="/shop">Shop</Link>
               <ul className="p-2">
                 <li>
-                  <a>T-shirt 1</a>
+                  <Link to="/tshirt">T-shirt</Link>
                 </li>
                 <li>
-                  <a>Man's shirt</a>
+                  <Link to="/manshirt">Man's Shirt</Link>
                 </li>
                 <li>
-                  <a>Jeans pants</a>
+                  <Link to="/jeans">Jeans Pants</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>
 
-        <a className="btn btn-ghost">
+        <Link to="/home" className="btn btn-ghost">
           <img
             src="https://i.ibb.co/2svDFN7/B-1-removebg-preview-1.png"
             alt="Logo"
             className="h-14"
           />
-        </a>
+        </Link>
       </div>
+
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>T-shirt</a>
+            <Link to="/tshirt">T-shirt</Link>
           </li>
           <li>
-            <a>Man's shirt</a>
+            <Link to="/manshirt">Man's Shirt</Link>
           </li>
           <li>
-            <a>Jeans pants</a>
+            <Link to="/jeans">Jeans Pants</Link>
           </li>
           <li>
-            <a>Contact Us</a>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
       </div>
+
       <div className="navbar-end">
         <div className="flex-none">
           <div className="dropdown dropdown-end">
