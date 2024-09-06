@@ -5,8 +5,8 @@ const HomeSalide = () => {
   const [isPaused, setIsPaused] = useState(false);
 
   const slides = [
+    "https://i.postimg.cc/44VSTvW9/Best-Mens-tshirt-brands-768x644.png",
     "https://i.postimg.cc/3r6HWqnk/Whats-App-Image-2024-09-06-at-06-11-31-e7e904bf.jpg",
-    "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
     "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80",
   ];
 
@@ -47,8 +47,8 @@ const HomeSalide = () => {
             <div className="absolute inset-0 flex items-start justify-center p-8">
               <h2 className="text-white text-5xl font-bold  px-4 py-2 rounded-lg">
                 Welcome to <br />
-                <span className="text-red-500">EC</span>{" "}
-                <span className="text-blue-500">Bazaar</span>
+                <span className="text-red-500">MY</span>{" "}
+                <span className="text-blue-500">Shop</span>
               </h2>
             </div>
           )}
