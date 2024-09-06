@@ -4,6 +4,7 @@ import ContactUs from "../pages/ContactUs/ContactUs";
 import Home from "../pages/Home/Home";
 import JeansPants from "../pages/JeansPants/JeansPants";
 import ManShirt from "../pages/ManShirt/ManShirt";
+import Panjabi from "../pages/Panjabi/Panjabi";
 import Shop from "../pages/ShopPages/Shop";
 import Tshirt from "../pages/TshirtPage/Tshirt";
 
@@ -27,6 +28,10 @@ const myCreateRouter = createBrowserRouter([
       {
         path: "/manshirt",
         element: <ManShirt></ManShirt>,
+      },
+      {
+        path: "/panjabi",
+        element: <Panjabi></Panjabi>,
       },
       {
         path: "/jeans",

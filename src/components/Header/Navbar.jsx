@@ -39,6 +39,9 @@ const Navbar = () => {
                   <Link to="/manshirt">Man's Shirt</Link>
                 </li>
                 <li>
+                  <Link to="/panjabi">Panjabi</Link>
+                </li>
+                <li>
                   <Link to="/jeans">Jeans Pants</Link>
                 </li>
               </ul>
@@ -59,12 +62,15 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 gap-4">
           <li>
             <Link to="/tshirt">T-shirt</Link>
           </li>
           <li>
             <Link to="/manshirt">Man's Shirt</Link>
+          </li>
+          <li>
+            <Link to="/panjabi">Panjabi</Link>
           </li>
           <li>
             <Link to="/jeans">Jeans Pants</Link>
