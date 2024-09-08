@@ -12,7 +12,7 @@ const HomeCards = ({ data }) => {
 
   return (
     <div>
-      <section>
+      <section className="bg-gray-100 text-black py-6">
         <h2 className="text-2xl text-center font-bold my-4">
           Top T-Shirt Items
         </h2>
@@ -48,7 +48,7 @@ const HomeCards = ({ data }) => {
         </div>
       </section>
 
-      <section>
+      <section className="bg-black text-white py-6">
         <h2 className="text-2xl text-center font-bold my-4">
           Top Mans Shirt Items
         </h2>
@@ -84,7 +84,7 @@ const HomeCards = ({ data }) => {
         </div>
       </section>
 
-      <section>
+      <section className="bg-yellow-200 text-black py-6">
         <h2 className="text-2xl text-center font-bold my-4">
           Top Panjabi Items
         </h2>
@@ -120,7 +120,7 @@ const HomeCards = ({ data }) => {
         </div>
       </section>
 
-      <section>
+      <section className="bg-black text-white py-6">
         <h2 className="text-2xl text-center font-bold my-4">
           Top Jeans Pants Items
         </h2>
@@ -144,7 +144,7 @@ const HomeCards = ({ data }) => {
                 <button className="btn btn-outline btn-accent">
                   Add Card!
                 </button>
-                <button className="bbtn btn-outline btn-warning">
+                <button className="btn btn-outline btn-warning">
                   Buy it now!
                 </button>
               </div>

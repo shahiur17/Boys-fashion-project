@@ -24,7 +24,7 @@ const HomeSalide = () => {
 
   return (
     <div
-      className="relative h-80 overflow-hidden rounded-xl"
+      className="relative h-40 md:h-80 overflow-hidden rounded-xl"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
@@ -41,11 +41,11 @@ const HomeSalide = () => {
           <img
             src={slide}
             alt={`slide ${index + 1}`}
-            className="h-80 w-full object-cover"
+            className="h-40 md:h-80 w-full object-cover"
           />
           {index === 0 && (
             <div className="absolute inset-0 flex items-start justify-center p-8">
-              <h2 className="text-white text-5xl font-bold  px-4 py-2 rounded-lg">
+              <h2 className="text-white text-3xl md:text-5xl font-bold px-4 py-2 rounded-lg">
                 Welcome to <br />
                 <span className="text-red-500">MY</span>{" "}
                 <span className="text-blue-500">Shop</span>

@@ -5,7 +5,6 @@ import Home from "../pages/Home/Home";
 import JeansPants from "../pages/JeansPants/JeansPants";
 import ManShirt from "../pages/ManShirt/ManShirt";
 import Panjabi from "../pages/Panjabi/Panjabi";
-import Shop from "../pages/ShopPages/Shop";
 import Tshirt from "../pages/TshirtPage/Tshirt";
 
 const myCreateRouter = createBrowserRouter([
@@ -16,10 +15,6 @@ const myCreateRouter = createBrowserRouter([
       {
         path: "/home",
         element: <Home></Home>,
-      },
-      {
-        path: "/shop",
-        element: <Shop></Shop>,
       },
       {
         path: "/tshirt",

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-black text-white font-bold">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,30 +24,41 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-black text-white font-bold rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/home" className="hover:text-blue-500">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/shop">Shop</Link>
               <ul className="p-2">
                 <li>
-                  <Link to="/tshirt">T-shirt</Link>
+                  <Link to="/tshirt" className="hover:text-blue-500">
+                    T-shirt
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/manshirt">Man's Shirt</Link>
+                  <Link to="/manshirt" className="hover:text-blue-500">
+                    Man's Shirt
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/panjabi">Panjabi</Link>
+                  <Link to="/panjabi" className="hover:text-blue-500">
+                    Panjabi
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/jeans">Jeans Pants</Link>
+                  <Link to="/jeans" className="hover:text-blue-500">
+                    Jeans Pants
+                  </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact" className="hover:text-blue-500">
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
@@ -56,7 +67,7 @@ const Navbar = () => {
           <img
             src="https://i.ibb.co/2svDFN7/B-1-removebg-preview-1.png"
             alt="Logo"
-            className="h-14"
+            className="h-14 hover:scale-125 transition-transform duration-300"
           />
         </Link>
       </div>
@@ -64,19 +75,29 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-4">
           <li>
-            <Link to="/tshirt">T-shirt</Link>
+            <Link to="/tshirt" className="hover:text-blue-500">
+              T-shirt
+            </Link>
           </li>
           <li>
-            <Link to="/manshirt">Man's Shirt</Link>
+            <Link to="/manshirt" className="hover:text-blue-500">
+              Man's Shirt
+            </Link>
           </li>
           <li>
-            <Link to="/panjabi">Panjabi</Link>
+            <Link to="/panjabi" className="hover:text-blue-500">
+              Panjabi
+            </Link>
           </li>
           <li>
-            <Link to="/jeans">Jeans Pants</Link>
+            <Link to="/jeans" className="hover:text-blue-500">
+              Jeans Pants
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/contact" className="hover:text-blue-500">
+              Contact Us
+            </Link>
           </li>
         </ul>
       </div>
@@ -87,7 +108,7 @@ const Navbar = () => {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost btn-circle"
+              className="btn btn-ghost btn-circle hover:scale-125 transition-transform duration-300"
             >
               <div className="indicator">
                 <svg
@@ -109,7 +130,7 @@ const Navbar = () => {
             </div>
             <div
               tabIndex={0}
-              className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow"
+              className="card card-compact dropdown-content bg-black text-white font-bold z-[1] mt-3 w-52 shadow"
             >
               <div className="card-body">
                 <span className="text-lg font-bold">8 Items</span>
@@ -126,7 +147,7 @@ const Navbar = () => {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost btn-circle avatar"
+              className="btn btn-ghost btn-circle avatar hover:scale-125 transition-transform duration-300"
             >
               <div className="w-10 rounded-full">
                 <img
@@ -137,19 +158,19 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-black text-white font-bold rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a className="justify-between">
+                <a className="hover:text-blue-500 justify-between">
                   Profile
                   <span className="badge">New</span>
                 </a>
               </li>
               <li>
-                <a>Settings</a>
+                <a className="hover:text-blue-500">Settings</a>
               </li>
               <li>
-                <a>Logout</a>
+                <a className="hover:text-blue-500">Logout</a>
               </li>
             </ul>
           </div>
