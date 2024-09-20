@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [isTshirtMenuOpen, setIsTshirtMenuOpen] = useState(false);
+
+  const toggleTshirtMenu = () => {
+    setIsTshirtMenuOpen(!isTshirtMenuOpen);
+  };
+
   return (
     <div className="navbar bg-black text-white font-bold">
       <div className="navbar-start">
@@ -27,33 +33,36 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-black text-white font-bold rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <Link to="/home" className="hover:text-blue-500">
-                Home
+              <button
+                onClick={toggleTshirtMenu}
+                className="hover:text-blue-500"
+              >
+                T-shirt
+              </button>
+              {isTshirtMenuOpen && (
+                <ul className="pl-4">
+                  <li>
+                    <Link to="/dropsolder" className="hover:text-blue-500">
+                      Drop-shoulder
+                    </Link>
+                  </li>
+                </ul>
+              )}
+            </li>
+            <li>
+              <Link to="/manshirt" className="hover:text-blue-500">
+                Man's Shirt
               </Link>
             </li>
             <li>
-              <ul className="p-2">
-                <li>
-                  <Link to="/tshirt" className="hover:text-blue-500">
-                    T-shirt
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/manshirt" className="hover:text-blue-500">
-                    Man's Shirt
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/panjabi" className="hover:text-blue-500">
-                    Panjabi
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/jeans" className="hover:text-blue-500">
-                    Jeans Pants
-                  </Link>
-                </li>
-              </ul>
+              <Link to="/panjabi" className="hover:text-blue-500">
+                Panjabi
+              </Link>
+            </li>
+            <li>
+              <Link to="/jeans" className="hover:text-blue-500">
+                Jeans Pants
+              </Link>
             </li>
             <li>
               <Link to="/contact" className="hover:text-blue-500">
@@ -74,11 +83,19 @@ const Navbar = () => {
 
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-4">
-          <li>
+          <li className="group">
             <Link to="/tshirt" className="hover:text-blue-500">
               T-shirt
             </Link>
+            <ul className="hidden group-hover:block pl-4">
+              <li>
+                <Link to="/dropsolder" className="hover:text-blue-500">
+                  Drop-shoulder
+                </Link>
+              </li>
+            </ul>
           </li>
+
           <li>
             <Link to="/manshirt" className="hover:text-blue-500">
               Man's Shirt

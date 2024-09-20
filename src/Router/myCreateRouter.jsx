@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Layouts/MainLayout";
 import ContactUs from "../pages/ContactUs/ContactUs";
+import DropSolderTshirt from "../pages/DropSolderTshirt/DropSolderTshirt";
 import Home from "../pages/Home/Home";
 import JeansPants from "../pages/JeansPants/JeansPants";
 import ManShirt from "../pages/ManShirt/ManShirt";
@@ -35,6 +36,10 @@ const myCreateRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactUs></ContactUs>,
+      },
+      {
+        path: "/dropsolder",
+        element: <DropSolderTshirt />,
       },
     ],
   },
