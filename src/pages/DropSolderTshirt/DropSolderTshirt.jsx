@@ -1,7 +1,13 @@
 import React from "react";
+import DropSolderProductCard from "../../components/ProductCards/DropSolderProductCard";
+import data from "../../data/Products.json"; // Make sure this JSON file contains the correct data structure
 
 const DropSolderTshirt = () => {
-  return <div>this is drop solder</div>;
+  return (
+    <div>
+      <DropSolderProductCard data={data} />
+    </div>
+  );
 };
 
 export default DropSolderTshirt;
