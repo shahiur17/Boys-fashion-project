@@ -1,5 +1,12 @@
+import PanjabiProductCadr from "../../components/ProductCards/PanjabiProductCadr";
+import data from "../../data/Products.json";
+
 const Panjabi = () => {
-  return <div>this is panjabi</div>;
+  return (
+    <div>
+      <PanjabiProductCadr data={data} />
+    </div>
+  );
 };
 
 export default Panjabi;
