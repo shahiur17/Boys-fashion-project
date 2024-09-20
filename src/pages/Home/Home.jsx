@@ -5,7 +5,7 @@ import HomeSalide from "./HomeSalide";
 
 const Home = () => {
   return (
-    <div>
+    <div className="space-y-6">
       <HomeSalide />
       <HomeCards data={data} />
     </div>

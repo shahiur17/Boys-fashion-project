@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Assuming the data is coming from a parent component or external source
 const HomeCards = ({ data }) => {
@@ -44,7 +45,9 @@ const HomeCards = ({ data }) => {
           ))}
         </div>
         <div className="py-2 text-center">
-          <button className="btn btn-outline btn-info">See More!</button>
+          <Link to="/tshirt">
+            <button className="btn btn-outline btn-info">See More!</button>
+          </Link>
         </div>
       </section>
 
@@ -80,7 +83,9 @@ const HomeCards = ({ data }) => {
           ))}
         </div>
         <div className="py-2 text-center">
-          <button className="btn btn-outline btn-info">See More!</button>
+          <Link to="/manshirt">
+            <button className="btn btn-outline btn-info">See More!</button>
+          </Link>
         </div>
       </section>
 
@@ -116,7 +121,9 @@ const HomeCards = ({ data }) => {
           ))}
         </div>
         <div className="py-2 text-center">
-          <button className="btn btn-outline btn-info">See More!</button>
+          <Link to="/panjabi">
+            <button className="btn btn-outline btn-info">See More!</button>
+          </Link>
         </div>
       </section>
 
@@ -152,7 +159,9 @@ const HomeCards = ({ data }) => {
           ))}
         </div>
         <div className="py-2 text-center">
-          <button className="btn btn-outline btn-info">See More!</button>
+          <Link to="/jeans">
+            <button className="btn btn-outline btn-info">See More!</button>
+          </Link>
         </div>
       </section>
     </div>
