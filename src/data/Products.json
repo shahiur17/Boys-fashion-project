@@ -332,81 +332,91 @@
       "id": 41,
       "name": "Drop Solder 1",
       "brand": "Brand YY",
-      "price": 59.99,
+      "price": 349.99,
+      "discountedPrice": 49.99,
       "details": "A high-quality drop solder for precise electronics work.",
-      "image": "https://i.postimg.cc/d0b7FZtT/solder1.webp"
+      "image": "https://i.ibb.co.com/5kxVysH/15.jpg"
     },
     {
       "id": 42,
       "name": "Drop Solder 2",
       "brand": "Brand ZZ",
-      "price": 69.99,
+      "price": 349.99,
+      "discountedPrice": 49.99,
       "details": "Durable and reliable drop solder for advanced applications.",
-      "image": "https://i.postimg.cc/5tZpT3PR/solder2.webp"
+      "image": "https://i.ibb.co.com/B3T4bbR/14.jpg"
     },
     {
       "id": 43,
       "name": "Drop Solder 3",
       "brand": "Brand AAA",
-      "price": 79.99,
+      "price": 349.99,
+      "discountedPrice": 49.99,
       "details": "Professional-grade drop solder for industrial use.",
-      "image": "https://i.postimg.cc/L56ZCQwM/solder3.webp"
+      "image": "https://i.ibb.co.com/Zg6Xqjt/12.jpg"
     },
     {
       "id": 44,
       "name": "Drop Solder 4",
       "brand": "Brand BBB",
-      "price": 89.99,
+      "price": 349.99,
+      "discountedPrice": 49.99,
       "details": "High-performance drop solder designed for automotive repairs.",
-      "image": "https://i.postimg.cc/j5TQVgyk/solder4.webp"
+      "image": "https://i.ibb.co.com/19wHQWY/11.jpg"
     },
     {
       "id": 45,
       "name": "Drop Solder 5",
       "brand": "Brand CCC",
-      "price": 99.99,
+      "price": 349.99,
+      "discountedPrice": 49.99,
       "details": "Premium drop solder for use in sensitive electronics.",
-      "image": "https://i.postimg.cc/yx8ZTjxJ/solder5.webp"
+      "image": "https://i.ibb.co.com/bW63gDf/10.jpg"
     },
     {
       "id": 46,
       "name": "Drop Solder 6",
       "brand": "Brand DDD",
-      "price": 109.99,
+      "price": 349.99,
+      "discountedPrice": 49.99,
       "details": "Drop solder with enhanced thermal conductivity.",
-      "image": "https://i.postimg.cc/pLpF8LBC/solder6.webp"
+      "image": "https://i.ibb.co.com/n6LhshY/8.jpg"
     },
     {
       "id": 47,
       "name": "Drop Solder 7",
       "brand": "Brand EEE",
-      "price": 119.99,
+      "price": 349.99,
+      "discountedPrice": 49.99,
       "details": "Heavy-duty drop solder for use in aerospace technology.",
-      "image": "https://i.postimg.cc/43dQvNY9/solder7.webp"
+      "image": "https://i.ibb.co.com/JRWXGv3/7.jpg"
     },
     {
       "id": 48,
       "name": "Drop Solder 8",
       "brand": "Brand FFF",
-      "price": 129.99,
+      "price": 349.99,
+      "discountedPrice": 49.99,
       "details": "Specialized drop solder for medical equipment repairs.",
-      "image": "https://i.postimg.cc/4yT9P0sP/solder8.webp"
+      "image": "https://i.ibb.co.com/4Yr0cw5/6.jpg"
     },
     {
       "id": 49,
       "name": "Drop Solder 9",
       "brand": "Brand GGG",
-      "price": 139.99,
+      "price": 349.99,
+      "discountedPrice": 49.99,
       "details": "Drop solder offering superior bonding for structural integrity.",
-      "image": "https://i.postimg.cc/NFPHhyvJ/solder9.webp"
+      "image": "https://i.ibb.co.com/BCP9gmY/3.jpg"
     },
     {
       "id": 50,
       "name": "Drop Solder 10",
       "brand": "Brand HHH",
-      "price": 149.99,
+      "price": 349.99,
+      "discountedPrice": 49.99,
       "details": "Multi-purpose drop solder for home and professional use.",
-      "image": "https://i.postimg.cc/7L1XHr7G/solder10.webp"
+      "image": "https://i.ibb.co.com/w6V1d1d/1.jpg"
     }
   ]
 }
